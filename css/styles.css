@@ -77,12 +77,12 @@ h3 {
 
 p {
     font-size: 14px;
-    padding: 0 20px;
+    padding: 0 20px 20px;
 }
 
 #modalities {
     background-color: var(--bg-whith);
-    height: 740px;
+    height: 880px;
     color: var(--bg-red);
 }
 
@@ -93,8 +93,51 @@ p {
     color: var(--bg-whith);
 }
 
-footer {
+#company {
     background-color: var(--bg-black);
-    height: 262px;
+    height: 274px;    
+    color: var(--bg-whith);
+    display: flex;
+    flex-direction: column;
+    align-items: center;                    
+}
+
+.card-company-instagram {
+    margin-top: 60px;
+    align-items: center;    
+    display: flex;
+    font-size: 14px;    
+}
+
+.card-company-instagram img {
+    padding-right: 10px;   
+}
+
+.card-company-twitter {
     margin-top: 20px;
+    align-items: center;    
+    display: flex;
+    font-size: 14px;    
+}
+
+.card-company-twitter img {
+    padding-right: 17px;   
+}
+
+.card-company-rights {
+    padding-top: 36px;
+    font-size: 14px;    
+}
+
+.card-company-rights p {
+    padding: 0;        
+}
+
+.card-company-address {
+    padding-bottom: 60px;
+    font-size: 14px;
+}
+
+.card-company-address p {    
+    padding: 0;
 }
